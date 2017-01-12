@@ -36,3 +36,9 @@ class Bike
     puts "Ring ring!"
   end
 end
+
+
+car = Car.new 
+p car 
+
+p Car.class.superclass
